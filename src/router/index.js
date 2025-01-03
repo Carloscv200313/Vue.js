@@ -24,6 +24,11 @@ const router = createRouter({
       name: 'Formulario',
       component: () => import('../components/RegistrarUsuario.vue'),
     },
+    {
+      path: '/multiplicacion',
+      name: 'Calculo',
+      component: () => import('../components/MultiplicacionesValor.vue'),
+    },
   ],
 })
 

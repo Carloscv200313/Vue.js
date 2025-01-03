@@ -1,7 +1,7 @@
 <template>
   <div>
     <HeaderTemperatura />
-    <div class="sidebar">
+    <div class="contenido">
       <SidebarMain></SidebarMain>
       <router-view></router-view>
     </div>
@@ -12,7 +12,7 @@ import SidebarMain from '../components/SidebarMain.vue'
 import HeaderTemperatura from '../components/HeaderTemperatura.vue'
 </script>
 <style scoped>
-.sidebar {
+.contenido {
   display: flex;
   flex-direction: row;
 }
