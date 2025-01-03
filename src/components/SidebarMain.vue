@@ -29,8 +29,10 @@ watch(
   },
 )
 </script>
-<style>
+<style scoped>
 .sidebar {
+  display: flex;
+  flex-direction: column;
   width: 200px;
   height: 100vh;
   background-color: aqua;
