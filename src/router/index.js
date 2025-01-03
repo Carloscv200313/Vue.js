@@ -12,18 +12,17 @@ const router = createRouter({
     {
       path: '/contador',
       name: 'Contador',
-      // route level code-splitting
-      // this generates a separate chunk (About.[hash].js) for this route
-      // which is lazy-loaded when the route is visited.
       component: () => import('../components/MiContador.vue'),
     },
     {
       path: '/lista',
       name: 'Lista de tareas',
-      // route level code-splitting
-      // this generates a separate chunk (About.[hash].js) for this route
-      // which is lazy-loaded when the route is visited.
       component: () => import('../components/ListaDeTareas.vue'),
+    },
+    {
+      path: '/registro',
+      name: 'Formulario',
+      component: () => import('../components/RegistrarUsuario.vue'),
     },
   ],
 })
